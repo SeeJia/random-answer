@@ -1,0 +1,17 @@
+:root {
+    --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card{
+    box-shadow: var(--box-shadow);
+    height: 300px;
+}
+
+.hidden{
+    display: none;
+}
+
+.answer-font{
+    font-size: 32px;
+    font-weight: bold;
+}
